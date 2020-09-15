@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10997721800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook_Class.beforeMethod()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User Booking Adactin Hotel by changing Room Type",
+        "description": "",
+        "id": "booking-adactin-hotel-by-changing-room-type-functionality;user-booking-adactin-hotel-by-changing-room-type;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 745980700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook_Class.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 429900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User shoud enter into Adactin login page",
+            "match": {
+              "location": "StepDefenition.user_shoud_enter_into_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22384140000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter \"karthi007\" and \"Karthi@1989\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthi007\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Karthi@1989\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefenition.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1039878500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should \"Brisbane\", \"Hotel Hervey\",\"Standard\",\"4 - Four\",\"26-Aug-2020\",\"28-Aug-2020\",\"2 - Two\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"26-Aug-2020\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"28-Aug-2020\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 99
+                }
+              ],
+              "location": "StepDefenition.user_should(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2842010400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click continue button",
+            "match": {
+              "location": "StepDefenition.user_should_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1264089300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should select hotel and click continue button",
+            "match": {
+              "location": "StepDefenition.user_should_select_hotel_and_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1103344400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should enter \"Raj\",\"Kumar\",\"west streest,chennai\",\"5432 2345 7890 1234\",\"Master Card\",\"July\",\"2021\",\"234\" and user should click continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raj\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"west streest,chennai\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"5432 2345 7890 1234\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 105
+                }
+              ],
+              "location": "StepDefenition.user_should_enter_and_user_should_click_continue(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5858650600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should get order detail",
+            "match": {
+              "location": "StepDefenition.user_should_get_order_detail()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click litinery button",
+            "match": {
+              "location": "StepDefenition.click_litinery_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Booking Adactin Hotel by changing Room type Functionality",
+    "description": "",
+    "id": "booking-adactin-hotel-by-changing-room-type-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/LoginDetails.feature",
+    "tags": []
+  }
+]

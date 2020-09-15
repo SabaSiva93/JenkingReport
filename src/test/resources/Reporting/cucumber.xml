@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="44.714042">
+<testcase classname="Booking Adactin Hotel by changing Room type Functionality" name="User Booking Adactin Hotel by changing Room Type" time="44.714042">
+<system-out><![CDATA[Given User shoud enter into Adactin login page..............................passed
+When user should enter "karthi007" and "Karthi@1989"........................passed
+And user should "Brisbane", "Hotel Hervey","Standard","4 - Four","26-Aug-2020","28-Aug-2020","2 - Two","0 - None".passed
+And user should click continue button.......................................passed
+And user should select hotel and click continue button......................passed
+And user should enter "Raj","Kumar","west streest,chennai","5432 2345 7890 1234","Master Card","July","2021","234" and user should click continue.passed
+Then user should get order detail...........................................passed
+And click litinery button...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
